@@ -3,8 +3,7 @@
 ## Table of content
 
 ### [Javascript 📒](https://github.com/fabien-renaud/notes/blob/master/javascript)
-- [Babel](https://github.com/fabien-renaud/notes/blob/master/javascript/babel)
-    - [Get started](https://github.com/fabien-renaud/notes/blob/master/javascript/babel/get-started.md)
+- [Get started with Babel, ESLint, Prettier, Dotenv and Nodemon](https://github.com/fabien-renaud/notes/blob/master/javascript/get-started-with-babel-eslint-prettier-dotenv-nodemon.md)
 
 ### [Docker 🐳](https://github.com/fabien-renaud/notes/blob/master/docker)
 - [Get Started](https://github.com/fabien-renaud/notes/blob/master/docker/get-started.md)
