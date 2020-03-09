@@ -32,7 +32,8 @@ npm install -D @babel/core @babel/cli @babel/preset-env @babel/node @babel/plugi
 **Install ESLint 🔮 as dev dependencies**
 
 ```sh
-npm install -D eslint eslint-config-airbnb eslint-config-node eslint-plugin-node
+npm install -D eslint eslint-config-node eslint-plugin-node
+npx install-peerdeps -D eslint-config-airbnb
 ```
 
 **Create `.eslintrc` file**
