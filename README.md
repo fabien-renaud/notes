@@ -7,8 +7,5 @@
 
 ### [Docker 🐳](https://github.com/fabien-renaud/notes/blob/master/docker)
 - [Get Started](https://github.com/fabien-renaud/notes/blob/master/docker/get-started.md)
-- [Cheat sheet](https://github.com/fabien-renaud/notes/blob/master/docker/cheatsheet.md) *(coming soon)*
+- [Install MongoDB](https://github.com/fabien-renaud/notes/blob/master/docker/install-mongodb.md)
 - [Install Postgres](https://github.com/fabien-renaud/notes/blob/master/docker/install-postgres.md)
-
-### [Markdown ⬇️](https://github.com/fabien-renaud/notes/blob/master/markdown)
-- [Cheat sheet](https://github.com/fabien-renaud/notes/blob/master/markdown/cheatsheet.md) *(coming soon)*
