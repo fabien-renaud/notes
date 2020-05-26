@@ -9,3 +9,6 @@
 - [Get Started](https://github.com/fabien-renaud/notes/blob/master/docker/get-started.md)
 - [Install MongoDB](https://github.com/fabien-renaud/notes/blob/master/docker/install-mongodb.md)
 - [Install Postgres](https://github.com/fabien-renaud/notes/blob/master/docker/install-postgres.md)
+
+### [Kubernetes ☄️](https://github.com/fabien-renaud/notes/blob/master/kubernetes)
+- [CLI Cheatsheet](https://github.com/fabien-renaud/notes/blob/master/kubernetes/cli-cheatsheet.md)
