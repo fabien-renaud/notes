@@ -1,36 +1,25 @@
-# Get started with Husky 🐶
+# Get started with Nodemon 😈
 
-### What is Husky 🐶
+### What is Nodemon 😈
 
-[Husky](https://www.npmjs.com/package/husky) improves your commits and more 🐶 woof!
- 
-### Install Husky 🐶 as dev dependency
- 
+[Nodemon](https://www.npmjs.com/package/nodemon) is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+### Install Nodemon 😈 as dev dependency
+
 ```sh
-npm install -D husky
-```
-
-### Setup `.huskyrc`:
-
-```json
-{
-    "hooks": {
-        "pre-commit": "npm run validate",
-        "pre-push": "npm run validate"
-    }
-}
+npm install -D nodemon
 ```
 
 `package.json` should looks like this:
 
 ```json
 {
-    "name": "husky",
+    "name": "nodemon",
     "version": "1.0.0",
-    "description": "Get started with Husky",
+    "description": "Get started with Nodemon",
     "main": "index.js",
     "scripts": {
-        "start": "node src/index.js"
+        "start": "nodemon src/index.js"
     },
     "repository": {
         "type": "git",
@@ -47,7 +36,7 @@ npm install -D husky
     },
     "devDependencies": {
         ...
-        "husky": "^4.2.5"
+        "nodemon": "^2.0.7"
     }
 }
 ```
