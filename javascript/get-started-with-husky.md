@@ -1,3 +1,5 @@
+[Go back to JavaScript](https://github.com/fabien-renaud/notes/blob/master/javascript)
+
 # Get started with Husky 🐶
 
 ### What is Husky 🐶

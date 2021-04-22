@@ -1,3 +1,5 @@
+[Go back to Home](https://github.com/fabien-renaud/notes)
+
 # JavaScript 🟨
 
 ## Table of content

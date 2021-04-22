@@ -1,3 +1,5 @@
+[Go back to JavaScript](https://github.com/fabien-renaud/notes/blob/master/javascript)
+
 # Get started with Babel, ESLint, Prettier, Dotenv and Nodemon 🍻
 
 ## Installation
