@@ -5,8 +5,8 @@
 **Install and run docker image 🐳**
 
 ```sh
-cmd		docker pull mongo
-cmd		docker run -d -p 27017:27017 --name mongodb -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=password mongo
+cmd	docker pull mongo
+cmd	docker run -d -p 27017:27017 --name mongodb -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=password mongo
 ```
 
 **.env file 🌳️**

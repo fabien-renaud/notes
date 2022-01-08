@@ -5,20 +5,20 @@
 **Install and run docker image 🐳**
 
 ```sh
-cmd		docker pull postgres
-cmd		docker run -d -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=postgres postgres
+cmd	docker pull postgres
+cmd	docker run -d -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=postgres postgres
 ```
 
 **Open docker shell 💻**
 
 ```sh
-cmd		docker exec -it postgres bash
+cmd	docker exec -it postgres bash
 ```
 
 **Login as postgres user 👨‍✈️**
 
 ```sh
-root#		psql -U postgres
+root#	psql -U postgres
 ```
 
 **Create a new database ✏️**
