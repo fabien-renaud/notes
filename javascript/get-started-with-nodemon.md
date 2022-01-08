@@ -17,28 +17,10 @@ npm install -D nodemon
 
 ```json
 {
-    "name": "nodemon",
-    "version": "1.0.0",
-    "description": "Get started with Nodemon",
-    "main": "index.js",
     "scripts": {
         "start": "nodemon src/index.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/fabien-renaud/note.git"
-    },
-    "author": "tenrah",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/fabien-renaud/note/issues"
-    },
-    "homepage": "https://github.com/fabien-renaud/note#readme",
-    "dependencies": {
-        ...
-    },
     "devDependencies": {
-        ...
         "nodemon": "^2.0.7"
     }
 }

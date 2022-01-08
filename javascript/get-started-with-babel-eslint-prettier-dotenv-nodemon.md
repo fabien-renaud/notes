@@ -8,7 +8,7 @@
 
 **What is Babel ⚡**
 
-[Babel](https://www.npmjs.com/package/babel) allow you to use latest JavaScript functionalities, and transpile your code
+[Babel](https://www.npmjs.com/package/babel) allow you to use the latest JavaScript functionalities, and transpile your code
 in older version.</br>
 `@babel/core` stand for babel `v7+`, meanwhile `babel/core` stand for older version.
 
@@ -22,8 +22,12 @@ npm install -D @babel/core @babel/cli @babel/preset-env @babel/node @babel/plugi
 
 ```json
 {
-    "plugins": ["@babel/plugin-proposal-throw-expressions"],
-    "presets": ["@babel/preset-env"]
+    "plugins": [
+        "@babel/plugin-proposal-throw-expressions"
+    ],
+    "presets": [
+        "@babel/preset-env"
+    ]
 }
 ```
 
@@ -31,7 +35,7 @@ npm install -D @babel/core @babel/cli @babel/preset-env @babel/node @babel/plugi
 
 **What is ESLint 🔮**
 
-[ESLint](https://www.npmjs.com/package/eslint) find and fix problems in your JavaScript code. It focus on code errors
+[ESLint](https://www.npmjs.com/package/eslint) find and fix problems in your JavaScript code. It focuses on code errors
 and best practices.
 
 **Install ESLint 🔮 as dev dependencies**
@@ -45,11 +49,18 @@ npx install-peerdeps -D eslint-config-airbnb
 
 ```json
 {
-  "extends": ["airbnb", "prettier"],
-  "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": ["error"]
-  }
+    "extends": [
+        "airbnb",
+        "prettier"
+    ],
+    "plugins": [
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": [
+            "error"
+        ]
+    }
 }
 ```
 
@@ -69,13 +80,22 @@ npm install -D prettier eslint-config-prettier eslint-plugin-prettier
 
 ```json
 {
-  "semi": true,
-  "proseWrap": "always",
-  "arrowParens": "avoid",
-  "trailingComma": "all",
-  "quoteProps": "as-needed",
-  "singleQuote": true,
-  "jsxSingleQuote": true
+    "printWidth": 160,
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": false,
+    "trailingComma": "none",
+    "bracketSpacing": false,
+    "bracketSameLine": true,
+    "arrowParens": "always",
+    "requirePragma": false,
+    "insertPragma": false,
+    "proseWrap": "preserve",
+    "htmlWhitespaceSensitivity": "ignore",
+    "endOfLine": "auto"
 }
 ```
 
@@ -93,7 +113,7 @@ npm install -D dotenv
 
 **Create `.env` file**
 
-```text
+```dotenv
 # App
 PORT=10080
 
@@ -115,52 +135,28 @@ automatically restarting the node application when file changes in the directory
 npm install -D nodemon
 ```
 
-## Setup `package.json` scripts start
-
-```json
-"scripts": {
-    "start": "nodemon --exec babel-node -r dotenv/config index.js"
-}
-```
-
-`package.json` should looks like this:
+`package.json` should look like this:
 
 ```json
 {
-  "name": "todo",
-  "version": "1.0.0",
-  "description": "Because I'm sick of notepad++",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon --exec babel-node -- src/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fabien-renaud/note.git"
-  },
-  "author": "tenrah",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fabien-renaud/note/issues"
-  },
-  "homepage": "https://github.com/fabien-renaud/note#readme",
-  "dependencies": {
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.6",
-    "@babel/node": "^7.8.4",
-    "@babel/plugin-proposal-throw-expressions": "^7.8.3",
-    "@babel/preset-env": "^7.8.6",
-    "dotenv": "^8.2.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-node": "^4.0.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "prettier": "^1.19.1"
-  }
+    "scripts": {
+        "start": "nodemon --exec babel-node -r dotenv/config src/index.js"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.8.6",
+        "@babel/node": "^7.8.4",
+        "@babel/plugin-proposal-throw-expressions": "^7.8.3",
+        "@babel/preset-env": "^7.8.6",
+        "dotenv": "^8.2.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-config-node": "^4.0.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-node": "^11.0.0",
+        "eslint-plugin-prettier": "^3.1.2",
+        "prettier": "^1.19.1"
+    }
 }
 ```
 

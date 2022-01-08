@@ -32,28 +32,10 @@ DATABASE_PASSWORD=postgres
 
 ```json
 {
-    "name": "dotenv",
-    "version": "1.0.0",
-    "description": "Get started with dotenv",
-    "main": "index.js",
     "scripts": {
         "start": "node -r dotenv/config src/index.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/fabien-renaud/note.git"
-    },
-    "author": "tenrah",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/fabien-renaud/note/issues"
-    },
-    "homepage": "https://github.com/fabien-renaud/note#readme",
-    "dependencies": {
-        ...
-    },
     "devDependencies": {
-        ...
         "dotenv": "^8.2.0"
     }
 }

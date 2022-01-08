@@ -23,32 +23,14 @@ npm install -D husky
 }
 ```
 
-`package.json` should looks like this:
+`package.json` should look like this:
 
 ```json
 {
-    "name": "husky",
-    "version": "1.0.0",
-    "description": "Get started with Husky",
-    "main": "index.js",
     "scripts": {
         "start": "node src/index.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/fabien-renaud/note.git"
-    },
-    "author": "tenrah",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/fabien-renaud/note/issues"
-    },
-    "homepage": "https://github.com/fabien-renaud/note#readme",
-    "dependencies": {
-        ...
-    },
     "devDependencies": {
-        ...
         "husky": "^4.2.5"
     }
 }
