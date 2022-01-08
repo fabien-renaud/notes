@@ -4,10 +4,11 @@
 
 ### What is Babel ⚡
 
-[Babel](https://www.npmjs.com/package/@babel/core) is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.
- 
+[Babel](https://www.npmjs.com/package/@babel/core) is a toolchain that is mainly used to convert ECMAScript 2015+ code
+into a backwards compatible version of JavaScript in current and older browsers or environments.
+
 ### Install Babel ⚡ as dev dependency
- 
+
 ```sh
 npm install -D @babel/core @babel/cli @babel/preset-env @babel/node @babel/plugin-proposal-throw-expressions
 ```
@@ -57,4 +58,5 @@ npm install -D @babel/core @babel/cli @babel/preset-env @babel/node @babel/plugi
 ```
 
 ### It works !
+
 *Don't forget to give a* ⭐️ *if this markdown helped you !*

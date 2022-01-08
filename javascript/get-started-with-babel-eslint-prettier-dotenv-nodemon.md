@@ -8,16 +8,18 @@
 
 **What is Babel ⚡**
 
-[Babel](https://www.npmjs.com/package/babel) allow you to use latest JavaScript functionalities, and transpile your code in older version.</br>
-`@babel/core` stand for babel `v7+`, meanwhile `babel/core` stand for older version. 
- 
- **Install Babel ⚡ as dev dependency**
- 
+[Babel](https://www.npmjs.com/package/babel) allow you to use latest JavaScript functionalities, and transpile your code
+in older version.</br>
+`@babel/core` stand for babel `v7+`, meanwhile `babel/core` stand for older version.
+
+**Install Babel ⚡ as dev dependency**
+
 ```sh
 npm install -D @babel/core @babel/cli @babel/preset-env @babel/node @babel/plugin-proposal-throw-expressions
 ```
 
 **Create `.babelrc` file**
+
 ```json
 {
     "plugins": ["@babel/plugin-proposal-throw-expressions"],
@@ -29,7 +31,8 @@ npm install -D @babel/core @babel/cli @babel/preset-env @babel/node @babel/plugi
 
 **What is ESLint 🔮**
 
-[ESLint](https://www.npmjs.com/package/eslint) find and fix problems in your JavaScript code. It focus on code errors and best practices.
+[ESLint](https://www.npmjs.com/package/eslint) find and fix problems in your JavaScript code. It focus on code errors
+and best practices.
 
 **Install ESLint 🔮 as dev dependencies**
 
@@ -39,6 +42,7 @@ npx install-peerdeps -D eslint-config-airbnb
 ```
 
 **Create `.eslintrc` file**
+
 ```json
 {
   "extends": ["airbnb", "prettier"],
@@ -62,6 +66,7 @@ npm install -D prettier eslint-config-prettier eslint-plugin-prettier
 ```
 
 **Create `.prettierrc` file**
+
 ```json
 {
   "semi": true,
@@ -79,14 +84,15 @@ npm install -D prettier eslint-config-prettier eslint-plugin-prettier
 **What is Dotenv 💻**
 
 [Dotenv](https://www.npmjs.com/package/dotenv) allow you to load environment variables in runtime, using a `.env` file.
- 
- **Install Dotenv 💻 as dev dependency**
- 
+
+**Install Dotenv 💻 as dev dependency**
+
 ```sh
 npm install -D dotenv
 ```
 
 **Create `.env` file**
+
 ```text
 # App
 PORT=10080
@@ -100,11 +106,11 @@ POST_API_URL=http://localhost:10082/posts
 
 **What is Nodemon 😈**
 
-[Nodemon](https://www.npmjs.com/package/nodemon) is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+[Nodemon](https://www.npmjs.com/package/nodemon) is a tool that helps develop node.js based applications by
+automatically restarting the node application when file changes in the directory are detected.
 
+**Install Nodemon 😈 as dev dependency**
 
- **Install Nodemon 😈 as dev dependency**
- 
 ```sh
 npm install -D nodemon
 ```
@@ -159,4 +165,5 @@ npm install -D nodemon
 ```
 
 ## It works !
+
 *Don't forget to give a* ⭐️ *if this markdown helped you !*

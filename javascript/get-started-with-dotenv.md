@@ -4,17 +4,18 @@
 
 ### What is Dotenv 💻
 
-[dotenv](https://www.npmjs.com/package/dotenv) is a zero-dependency module that loads environment variables from a .env file into process.env.
- 
+[dotenv](https://www.npmjs.com/package/dotenv) is a zero-dependency module that loads environment variables from a .env
+file into process.env.
+
 ### Install Dotenv 💻 as dev dependency
- 
+
 ```sh
 npm install -D dotenv
 ```
 
 ### `.env` sample :
 
-```json
+```dotenv
 # Server
 SERVER_HOST=localhost
 SERVER_PORT=10081
@@ -27,7 +28,7 @@ DATABASE_USER=postgres
 DATABASE_PASSWORD=postgres
 ```
 
-`package.json` should looks like this:
+`package.json` should look like this:
 
 ```json
 {
@@ -59,4 +60,5 @@ DATABASE_PASSWORD=postgres
 ```
 
 ### It works !
+
 *Don't forget to give a* ⭐️ *if this markdown helped you !*

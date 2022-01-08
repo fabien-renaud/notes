@@ -3,6 +3,7 @@
 # JavaScript 🟨
 
 ## Table of content
+
 - [Get started with Babel](https://github.com/fabien-renaud/notes/blob/master/javascript/get-started-with-babel.md)
 - [Get started with dotenv](https://github.com/fabien-renaud/notes/blob/master/javascript/get-started-with-dotenv.md)
 - [Get started with Husky](https://github.com/fabien-renaud/notes/blob/master/javascript/get-started-with-husky.md)

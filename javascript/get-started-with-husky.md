@@ -5,9 +5,9 @@
 ### What is Husky 🐶
 
 [Husky](https://www.npmjs.com/package/husky) improves your commits and more 🐶 woof!
- 
+
 ### Install Husky 🐶 as dev dependency
- 
+
 ```sh
 npm install -D husky
 ```
@@ -55,4 +55,5 @@ npm install -D husky
 ```
 
 ### It works !
+
 *Don't forget to give a* ⭐️ *if this markdown helped you !*
