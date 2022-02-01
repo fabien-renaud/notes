@@ -108,6 +108,15 @@ TypeScript config
 }
 ```
 
+**Usage**
+```sh
+# Analyze code
+eslint src
+
+# Automatically fix it
+eslint src --fix
+```
+
 ## Prettier 🌟
 
 **What is Prettier 🌟**
@@ -141,6 +150,15 @@ npm install -D prettier
     "htmlWhitespaceSensitivity": "ignore",
     "endOfLine": "auto"
 }
+```
+
+**Usage**
+```sh
+# Analyze code
+prettier --check ./src/**/*.ts
+
+# Automatically fix it
+prettier --write ./src/**/*.ts
 ```
 
 ## StyleLint 🌟
@@ -189,7 +207,32 @@ npm install -D stylelint \
         "indentation": 4
     }
 }
+```
 
+**Usage**
+```sh
+# Analyze code
+stylelint src/**/*.scss
+
+# Automatically fix it
+stylelint src/**/*.scss --fix
+```
+
+## Scripts ⚙
+
+```json
+{
+    "scripts": {
+        "fix": "npm run validate:lint && npm run validate:prettier && npm run validate:stylelint",
+        "fix:lint": "eslint src --fix",
+        "fix:prettier": "prettier --write ./src/**/*.ts",
+        "fix:stylelint": "stylelint src/**/*.scss --fix"
+        "validate": "npm run validate:lint && npm run validate:prettier && npm run validate:stylelint",
+        "validate:lint": "eslint src",
+        "validate:prettier": "prettier --check ./src/**/*.ts",
+        "validate:stylelint": "stylelint src/**/*.scss"
+    }
+}
 ```
 
 ## It works !
