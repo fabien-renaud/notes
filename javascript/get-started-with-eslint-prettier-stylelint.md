@@ -226,7 +226,7 @@ stylelint src/**/*.scss --fix
         "fix": "npm run validate:lint && npm run validate:prettier && npm run validate:stylelint",
         "fix:lint": "eslint src --fix",
         "fix:prettier": "prettier --write ./src/**/*.ts",
-        "fix:stylelint": "stylelint src/**/*.scss --fix"
+        "fix:stylelint": "stylelint src/**/*.scss --fix",
         "validate": "npm run validate:lint && npm run validate:prettier && npm run validate:stylelint",
         "validate:lint": "eslint src",
         "validate:prettier": "prettier --check ./src/**/*.ts",
